@@ -1,0 +1,126 @@
+.bg-white {
+  background-color: white;
+}
+.detail-wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+.detail-wrapper .bread {
+  height: 40px;
+  line-height: 40px;
+}
+.detail-wrapper .bread .arrow,
+.detail-wrapper .bread .last-bread {
+  color: #999;
+}
+.detail-wrapper .detail-images {
+  width: 495px;
+}
+.detail-wrapper .detail-props {
+  width: 675px;
+  font-size: 12px;
+}
+.detail-wrapper .detail-props .prop-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
+}
+.detail-wrapper .detail-props .prop-desc {
+  font-size: 16px;
+  color: #e22841;
+  margin-bottom: 15px;
+}
+.detail-wrapper .detail-props .prop-name {
+  padding: 0 10px;
+  line-height: 34px;
+}
+.detail-wrapper .detail-props .prop-name .prop-space {
+  padding: 0 12px;
+}
+.detail-wrapper .detail-props .prop-sale {
+  height: 55px;
+  background-color: #f5f5f5;
+  margin-bottom: 26px;
+}
+.detail-wrapper .detail-props .prop-sale .prop-price {
+  font-size: 24px;
+  color: #e02b41;
+  line-height: 55px;
+}
+.detail-wrapper .detail-props .service-list {
+  display: inline-block;
+}
+.detail-wrapper .detail-props .service-list .list-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.detail-wrapper .detail-props .service-list .list-item i {
+  margin-right: 5px;
+  color: #00c3f5;
+}
+.detail-wrapper .detail-props .prop-number {
+  display: inline-block;
+  vertical-align: middle;
+}
+.detail-wrapper .detail-props .prop-number .prop-input {
+  width: 53px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #dcdcdc;
+  color: #333;
+  text-align: center;
+}
+.detail-wrapper .detail-props .prop-number .change-box {
+  margin-left: 6px;
+}
+.detail-wrapper .detail-props .prop-number .change-value {
+  width: 20px;
+  height: 16px;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #dcdcdc;
+  line-height: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+.detail-wrapper .detail-props .prop-number .change-value:last-child {
+  margin-top: 6px;
+}
+.detail-wrapper .detail-props .prop-buy {
+  margin-top: 17px;
+}
+.detail-wrapper .detail-props .mr20 {
+  margin-right: 20px;
+}
+.detail-wrapper .detail-info-wrapper {
+  margin: 60px 0 80px;
+  font-size: 0;
+}
+.detail-wrapper .detail-info-wrapper .detail-info {
+  height: 62px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.detail-wrapper .detail-info-wrapper .info-title {
+  font-size: 16px;
+  height: 62px;
+  line-height: 62px;
+  color: #00c3f5;
+  border-bottom: 1px solid #00c3f5;
+  padding: 0 20px;
+  margin-bottom: -1px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.detail-wrapper .detail-info-wrapper .detail-images {
+  width: 1240px;
+}
+.add-success {
+  color: #00c3f5;
+  margin-right: 5px;
+}
+.go-shopcart {
+  color: #00c3f5;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=detail.css.map */

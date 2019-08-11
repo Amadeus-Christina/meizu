@@ -1,0 +1,53 @@
+.dialog-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(153, 153, 153, 0.6);
+  display: table;
+}
+.dialog-mask .dialog-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+.dialog-mask .dialog-wrapper {
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+}
+.dialog-mask .dialog-header {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+}
+.dialog-mask .dialog-title {
+  border-bottom: 1px solid #efefef;
+}
+.dialog-mask .dialog-close {
+  position: absolute;
+  right: 26px;
+  color: #bdbdbd;
+  top: 16px;
+}
+.dialog-mask .dialog-footer {
+  padding-bottom: 30px;
+}
+.dialog-mask .mr20 {
+  margin-right: 20px;
+}
+.dialog-mask .wd100 {
+  width: 100px;
+}
+.dialog-enter {
+  opacity: 0;
+}
+.dialog-enter-active {
+  transition: opacity 0.3s;
+}
+/*# sourceMappingURL=dialog.css.map */

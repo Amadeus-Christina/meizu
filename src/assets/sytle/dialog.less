@@ -1,0 +1,57 @@
+.dialog-mask{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(153,153,153,.6);
+  display: table;
+  .dialog-box{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .dialog-wrapper{
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    //width: 500px;
+  }
+  .dialog-header{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+  }
+  .dialog-title{
+    border-bottom: 1px solid #efefef;
+  }
+  .dialog-close{
+    position: absolute;
+    right:26px;
+    color: #bdbdbd;
+    top:16px;
+  }
+  .dialog-content{
+    //height: 120px;
+    //line-height: 120px;
+  }
+  .dialog-footer{
+    padding-bottom: 30px;
+  }
+  .mr20{
+    margin-right: 20px;
+  }
+  .wd100{
+    width: 100px;
+  }
+}
+.dialog-enter{
+  opacity: 0;
+}
+.dialog-enter-active{
+  transition: opacity .3s;
+}
